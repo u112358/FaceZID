@@ -134,7 +134,7 @@ class FaceZID():
                     os.makedirs(self.model_dir)
                 saver.save(self.sess, self.model_dir, step)
 
-            step += 1
+            step +=
 
 
 def parse_arguments(argv):
